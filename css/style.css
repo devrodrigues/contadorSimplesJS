@@ -4,7 +4,7 @@ body {
 }
 
 .container { 
-    max-width: 500px;
+    max-width: 960px;
     height: 300px;
     margin: 0 auto;
 }
@@ -55,4 +55,13 @@ button {
 
 #start:hover, #stop:hover, #reset:hover {
     background: rgb(211, 208, 208);
+}
+
+@media only screen and (max-width: 500px) {
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
 }
