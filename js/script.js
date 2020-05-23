@@ -48,7 +48,6 @@ const resetButton = () => {
 
     const resetCount = () => {
         timer.textContent = 0;
-        isCount = false;
         count = 0;
     }
 
